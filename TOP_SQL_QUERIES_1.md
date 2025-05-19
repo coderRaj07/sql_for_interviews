@@ -4,7 +4,7 @@
 
 #### 1. Calculate the moving average of sales for the past 3 months.
 **Similar Problem:**
-👉 [Rolling Average Tweets – DataLemur](https://datalemur.com/questions/rolling-average-tweets) – Practice a similar moving average problem.
+👉 [Rolling Average Tweets – DataLemur](https://datalemur.com/questions/rolling-average-tweets)
 
 **Input Table: `sales`**
 
@@ -43,6 +43,8 @@ FROM sales;
 ---
 
 #### 2. Assign a dense rank to employees based on their salary.
+**Similar Problem:**
+👉 [Top Three Salaries– DataLemur](http://datalemur.com/questions/sql-top-three-salaries)
 
 **Input Table: `employees`**
 
