@@ -3,6 +3,8 @@
 ---
 
 #### 1. Calculate the moving average of sales for the past 3 months.
+**Similar Problem:**
+👉 [Rolling Average Tweets – DataLemur](https://datalemur.com/questions/rolling-average-tweets) – Practice a similar moving average problem.
 
 **Input Table: `sales`**
 
