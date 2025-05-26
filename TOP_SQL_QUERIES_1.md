@@ -172,6 +172,28 @@ FROM sales
 GROUP BY emp_id;
 ```
 
+or
+
+```sql
+WITH sales_with_employee_totals AS (
+    SELECT 
+        employee_id,
+        employee_name,
+        sale_amount,
+        SUM(sale_amount) OVER (PARTITION BY employee_id) AS employee_total_sales,
+        SUM(sale_amount) OVER () AS total_sales
+    FROM sales
+)
+SELECT 
+    DISTINCT employee_id,
+    employee_name,
+    employee_total_sales,
+    total_sales,
+    ROUND((employee_total_sales * 100.0) / total_sales, 2) AS percentage_of_total_sales
+FROM 
+    sales_with_employee_totals;
+```
+
 **Output Table:**
 
 | emp\_id | total\_sales | percentage |
