@@ -101,10 +101,6 @@ ORDER BY orderDate;
 | 2025-01-04 | 200     | 570          |
 
 
-Perfect. Here's the continuation with questions **3** to **5**, using the same format:
-
----
-
 ### 🔹 3. Identify employees who earn more than their managers
 
 **📌 Question**
