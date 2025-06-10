@@ -90,6 +90,18 @@ SELECT
 FROM Orders
 ORDER BY orderDate;
 ```
+or
+
+```sql
+WITH cte AS (
+  SELECT 
+    order_date,
+    revenue,
+    SUM(revenue) OVER (ORDER BY order_date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS running_total
+  FROM Orders
+)
+SELECT * FROM cte;
+```
 
 **🧾 Final Output Table**
 
@@ -130,6 +142,22 @@ SELECT e.name
 FROM Employee e
 JOIN Employee m ON e.managerId = m.id
 WHERE e.salary > m.salary;
+```
+
+or
+
+```sql
+WITH cte AS (
+  SELECT 
+    e.name AS employee_name,
+    e.salary AS employee_salary,
+    m.name AS manager_name,
+    m.salary AS manager_salary
+  FROM Employee e
+  INNER JOIN Employee m ON e.managerId = m.id
+  WHERE e.salary > m.salary
+)
+SELECT employee_name FROM cte;
 ```
 
 **🧾 Final Output Table**
