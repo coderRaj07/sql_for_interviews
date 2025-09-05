@@ -13,15 +13,12 @@ A curated collection of **top SQL queries**, explained and organized for quick r
 ## 📂 Explore Topics  
 
 
-
 | 🔢 Section | 📄 Link |
 |------------|---------|
 | 1️⃣ **Top SQL Queries (Part 1)** | [View Notes →](TOP_SQL_QUERIES_1.md) |
 | 2️⃣ **Top SQL Queries (Part 2)** | [View Notes →](TOP_SQL_QUERIES_2.md) |
 | 3️⃣ **Top SQL Queries (Part 3)** | [View Notes →](TOP_SQL_QUERIES_3.md) |
 | 4️⃣ **Top SQL Queries (Part 4)** | [View Notes →](TOP_SQL_QUERIES_4.md) |
-
-l
 
 ---
 
