@@ -1,4 +1,4 @@
-<div align="center">
+
 
 # 📘 SQL Notes  
 
@@ -8,11 +8,11 @@ A curated collection of **top SQL queries**, explained and organized for quick r
 
 ---
 
-</div>
+
 
 ## 📂 Explore Topics  
 
-<div align="center">
+
 
 | 🔢 Section | 📄 Link |
 |------------|---------|
@@ -21,7 +21,7 @@ A curated collection of **top SQL queries**, explained and organized for quick r
 | 3️⃣ **Top SQL Queries (Part 3)** | [View Notes →](TOP_SQL_QUERIES_3.md) |
 | 4️⃣ **Top SQL Queries (Part 4)** | [View Notes →](TOP_SQL_QUERIES_4.md) |
 
-</div>
+l
 
 ---
 
@@ -32,8 +32,8 @@ A curated collection of **top SQL queries**, explained and organized for quick r
 
 ---
 
-<div align="center">
+
 
 💡 *Perfect for interview prep & quick SQL refreshers!*  
 
-</div>
+
